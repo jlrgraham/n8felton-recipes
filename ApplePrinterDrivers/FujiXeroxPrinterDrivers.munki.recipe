@@ -10,14 +10,20 @@
     <dict>
         <key>MUNKI_REPO_SUBDIR</key>
         <string>Printers/Drivers</string>
+        <key>MUNKI_CATEGORY</key>
+        <string>Print Drivers</string>
         <key>pkginfo</key>
         <dict>
             <key>catalogs</key>
             <array>
                 <string>testing</string>
             </array>
+            <key>category</key>
+            <string>%MUNKI_CATEGORY%</string>
             <key>description</key>
             <string>Provides the latest FujiXerox printing and scanning software for OS X.</string>
+            <key>developer</key>
+            <string>Apple, Inc.</string>
             <key>display_name</key>
             <string>FujiXerox Printer Drivers</string>
             <key>name</key>
